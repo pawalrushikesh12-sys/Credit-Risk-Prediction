@@ -13,11 +13,11 @@ st.title("💳 Bank Loan Credit Risk Prediction")
 st.markdown("A smart tool to predict **loan default risk** using Machine Learning.")
 
 # Tabs for Single vs Batch Prediction
-tab1, tab2 = st.tabs(["📌 Single Prediction", "📂 Batch Prediction"])
+tab1, tab2 = st.tabs([" Single Prediction", " Batch Prediction"])
 
 # ------------------- Single Prediction -------------------
 with tab1:
-    st.header("📌 Enter Applicant Details")
+    st.header(" Enter Applicant Details")
 
     # Sidebar Inputs
     with st.sidebar:
@@ -70,3 +70,4 @@ with tab2:
                            data=csv,
                            file_name="credit_risk_predictions.csv",
                            mime="text/csv")
+
